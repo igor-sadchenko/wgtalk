@@ -1,0 +1,6 @@
+[requires]
+spdlog/0.14.0@bincrafters/stable
+
+
+[generators]
+cmake
