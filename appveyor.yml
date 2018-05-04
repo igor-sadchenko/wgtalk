@@ -27,5 +27,6 @@ environment:
       BUILD_TYPE: Debug
     - TOOLCHAIN_VERSION: 12
       BUILD_TYPE: Debug
-    - TOOLCHAIN_VERSION: 11
-      BUILD_TYPE: Debug
+    allow_failures:
+      - TOOLCHAIN_VERSION: 11
+        BUILD_TYPE: Debug
